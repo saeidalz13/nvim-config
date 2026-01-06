@@ -1,8 +1,31 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
+# Claude Code
+.claude/
+
+# Neovim
+.netrwhist
+spell/
+
+# Generated/cache files
 *.log
-data
+debug/
+.repro/
+doc/tags
+
+# Test files
+.tests/
+tt.*
+foo.*
+
+# Plugin data
+data/
+
+# Session files
+Session.vim
+
+# Undo files
+undo/
+
+# Swap files (usually in a different location, but just in case)
+*.swp
+*.swo
+*~
